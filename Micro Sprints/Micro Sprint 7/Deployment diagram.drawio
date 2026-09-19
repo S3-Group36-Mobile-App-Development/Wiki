@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36">
+  <diagram id="FEKjINcDisIPV5KZee3t" name="Page-1">
+    <mxGraphModel dx="2853" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-11" connectable="0" parent="1" style="group;fillColor=#E0F1FD;" value="" vertex="1">
+          <mxGeometry height="260" width="190" x="110" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-6" parent="HKjprIBVZkzUJhhtCa_2-11" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fillColor=#DEF4DC;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Android Device&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-10" parent="HKjprIBVZkzUJhhtCa_2-11" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E0F1FD;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;application&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;ZenMind Android App&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Technology: Kotlin&lt;br&gt;Architecture: MVVM&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="71.25925925925925" width="161.5" x="9.5" y="58.74074074074074" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-21" parent="HKjprIBVZkzUJhhtCa_2-11" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#F2E6F9;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;storage&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Local Storage / Cache&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Offline data&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Local user content&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Pending synchronization&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86.67" width="161.5" x="9.5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-12" connectable="0" parent="1" style="group;fillColor=#E0F1FD;" value="" vertex="1">
+          <mxGeometry height="260" width="190" x="550" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-50" edge="1" parent="HKjprIBVZkzUJhhtCa_2-12" source="HKjprIBVZkzUJhhtCa_2-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-51" connectable="0" parent="HKjprIBVZkzUJhhtCa_2-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / REST (JSON)" vertex="1">
+          <mxGeometry relative="1" x="-0.0749" y="-1" as="geometry">
+            <mxPoint x="2" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-13" parent="HKjprIBVZkzUJhhtCa_2-12" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fillColor=#DEF4DC;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;iOS Device&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-15" parent="HKjprIBVZkzUJhhtCa_2-12" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E0F1FD;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;application&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;ZenMind iOS App&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Technology: Flutter&lt;br&gt;Architecture: MVVM&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="71.25925925925925" width="161.5" x="9.5" y="58.74074074074074" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-22" parent="HKjprIBVZkzUJhhtCa_2-12" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#F2E6F9;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;storage&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Local Storage / Cache&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Offline data&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Local user content&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Pending synchronization&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86.67" width="161.5" x="9.5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-17" connectable="0" parent="1" style="group;fillColor=#F2E6F9;" value="" vertex="1">
+          <mxGeometry height="310" width="220" x="310" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-18" parent="HKjprIBVZkzUJhhtCa_2-17" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fillColor=#D0EAFD;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;server&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Backend Host / Cloud Server&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="310" width="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-35" connectable="0" parent="HKjprIBVZkzUJhhtCa_2-17" style="group" value="" vertex="1">
+          <mxGeometry height="250" width="176.5" x="17" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-36" parent="HKjprIBVZkzUJhhtCa_2-35" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#FDF6E2;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;container&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Docker Container&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="176.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-33" parent="HKjprIBVZkzUJhhtCa_2-35" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#FDE7EF;" value="&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;ZenMind REST API&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;•&lt;/font&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt; Versioned REST endpoints&lt;br&gt;&lt;font&gt;• Swagger documentation&lt;/font&gt;&lt;br&gt;&lt;font&gt;• Business logic&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="71.26" width="151.7" x="12.400000000000006" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-34" parent="HKjprIBVZkzUJhhtCa_2-35" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#E9F6E7;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;library&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;Prisma ORM&lt;/b&gt;&lt;/font&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Database access&lt;br&gt;• Migrations&lt;br&gt;• Seed scripts&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86.67" width="151.7" x="12.400000000000006" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-37" connectable="0" parent="1" style="group;fillColor=#DED1F7;" value="" vertex="1">
+          <mxGeometry height="220" width="190" x="330" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-38" parent="HKjprIBVZkzUJhhtCa_2-37" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;fillColor=#DED1F7;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;database&amp;gt;&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;PostgreSQL Instance&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="190" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-41" parent="HKjprIBVZkzUJhhtCa_2-37" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#EFECFD;" value="&lt;div align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;ZenMind Database&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;• Users &amp;amp; Institutions&lt;br&gt;• Mood Check-ins&lt;br&gt;• Panic Events&lt;br&gt;• Breathing Sessions&lt;br&gt;• Protocols / Flashcards&lt;br&gt;• Games / Audios&lt;br&gt;• Analytics (institutional)&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="131.26" width="161.5" x="10" y="64.37" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-46" edge="1" parent="1" source="HKjprIBVZkzUJhhtCa_2-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.829;entryDx=0;entryDy=0;entryPerimeter=0;" target="HKjprIBVZkzUJhhtCa_2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-47" connectable="0" parent="HKjprIBVZkzUJhhtCa_2-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTPS / REST (JSON)" vertex="1">
+          <mxGeometry relative="1" x="-0.0522" y="1" as="geometry">
+            <mxPoint x="11" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-52" edge="1" parent="1" source="HKjprIBVZkzUJhhtCa_2-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=310;exitDy=115;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=90;entryPerimeter=0;startArrow=classic;startFill=1;" target="HKjprIBVZkzUJhhtCa_2-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="415" y="730" />
+              <mxPoint x="420" y="730" />
+              <mxPoint x="420" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HKjprIBVZkzUJhhtCa_2-53" connectable="0" parent="HKjprIBVZkzUJhhtCa_2-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Prisma ORM / SQL" vertex="1">
+          <mxGeometry relative="1" x="0.1228" y="1" as="geometry">
+            <mxPoint x="-1" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
